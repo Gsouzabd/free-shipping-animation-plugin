@@ -9,7 +9,7 @@ class SettingsLinks{
 
     public function __construct()
     {
-        $this->plugin = MP_BASENAME;
+        $this->plugin = FSA_BASENAME;
     }
 
     public function register(){
@@ -19,7 +19,7 @@ class SettingsLinks{
     }
 
     public function settings_link($links){
-        $settings_link = '<a href="admin.php?page=mailer_plugin">Settings</a>';
+        $settings_link = '<a href="admin.php?page=free_shipping_animation">Settings</a>';
         array_push($links, $settings_link);
         return $links;
     }

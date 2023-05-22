@@ -11,11 +11,11 @@ class Admin{
     }
     
     public function add_admin_pages(){
-        add_menu_page('Mailer Plugin', 'Mailer', 'manage_options', 'mailer_plugin',array($this, 'admin_index'), 'dashicons-email-alt2', null);
+        add_menu_page('Free Shipping Animation', 'Free Shipping Animation', 'manage_options', 'free_shipping_animation',array($this, 'admin_index'), 'dashicons-money-alt', null);
     }
 
     public function admin_index(){
-        require_once MP_PATH . 'templates/admin.php';
+        require_once FSA_PATH . 'templates/admin.php';
     }
 
 }

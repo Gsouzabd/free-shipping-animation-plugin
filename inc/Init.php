@@ -10,7 +10,7 @@ final class Init{
      */
     public static function get_services(){
         return[
-            Base\Enqueue::class,
+            Base\Functions::class,
             Base\SettingsLinks::class,
             Pages\Admin::class,
 
