@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'gabrielsouza/mailer',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'flowdigital/fsa',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'dea4e2311e184d29c0d5dbedca781cefbfb1b211',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'gabrielsouza/mailer' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'flowdigital/fsa' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'dea4e2311e184d29c0d5dbedca781cefbfb1b211',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

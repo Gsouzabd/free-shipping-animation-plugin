@@ -1,6 +1,6 @@
 {
-    "name": "gabrielsouza/mailer",
-    "description": "Mailer Plugin",
+    "name": "flowdigital/fsa",
+    "description": "Free Shipping Animation",
     "type": "project",
     "license": "GPL",
     "autoload": {
@@ -12,6 +12,10 @@
         {
             "name": "gabrielsouza",
             "email": "gabrielsouzabd@outlook.com"
+        },
+        {
+            "name": "Flow Digital",
+            "email": "contato@goflow.digital"
         }
     ],
     "minimum-stability": "stable",

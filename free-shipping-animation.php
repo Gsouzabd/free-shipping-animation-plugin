@@ -1,8 +1,7 @@
 <?php
 /*
 * Plugin Name:          Free shipping Animation
-* Plugin URI:           https://github.com/marcofrasson/woocommerce-checkout-flow
-* Description:          Plugin para Woocommerce de animação para o valor necessário do frete grátis.
+* Description:          Plugin para Woocommerce. Animação para o valor necessário do frete grátis.
 * Author:               Gabriel Souza | Flow Digital Creative Ecommerce
 * Author URI:           https://goflow.digital
 * Version:              1.0.1

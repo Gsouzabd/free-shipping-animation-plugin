@@ -11,7 +11,16 @@ class Admin{
     }
     
     public function add_admin_pages(){
-        add_menu_page('Free Shipping Animation', 'Free Shipping Animation', 'manage_options', 'free_shipping_animation',array($this, 'admin_index'), 'dashicons-money-alt', null);
+        add_submenu_page(
+            'woocommerce',
+            'Free Shipping Animation',
+            'Free Shipping Animation',
+            'manage_options',
+            'free_shipping_animation',
+            array($this, 'admin_index'),
+            'dashicons-money-alt',
+            null
+        );
     }
 
     public function admin_index(){
