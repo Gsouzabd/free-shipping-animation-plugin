@@ -1,6 +1,6 @@
 <?php
 
-namespace Inc\Pages;
+namespace Inc_FSA\Pages;
 
 class Admin{
     

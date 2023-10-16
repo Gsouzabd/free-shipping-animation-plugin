@@ -30,8 +30,8 @@ define( 'FSA_PATH', plugin_dir_path((__FILE__)));
 define( 'FSA_URL', plugin_dir_url(__FILE__));
 
 
-use Inc\Base\Activate;
-use Inc\Base\Deactive;
+use Inc_FSA\Base\Activate;
+use Inc_FSA\Base\Deactive;
 
 function activate_fsa_plugin(){
     Activate::activate();
@@ -47,6 +47,6 @@ register_deactivation_hook(__FILE__, 'deactivate_fsa_plugin');
 
 
 
-if(class_exists('Inc\\Init')){
-    Inc\Init::register_services();
+if(class_exists('Inc_FSA\\Init')){
+    Inc_FSA\Init::register_services();
 }

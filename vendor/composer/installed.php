@@ -3,7 +3,7 @@
         'name' => 'flowdigital/fsa',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'dea4e2311e184d29c0d5dbedca781cefbfb1b211',
+        'reference' => '5dea44f689dbdf256c7bc0b12cbc9e96e62996da',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'flowdigital/fsa' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'dea4e2311e184d29c0d5dbedca781cefbfb1b211',
+            'reference' => '5dea44f689dbdf256c7bc0b12cbc9e96e62996da',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

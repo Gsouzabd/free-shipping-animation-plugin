@@ -3,10 +3,16 @@
     <div class="wrap">
         <h1>Free Shipping Animation Options</h1>
         <form method="post" action="options.php">
+            <h5>Defina os valores para frete grátis de cada região.</h5>
             <?php settings_fields('free_shipping_animation_opcoes'); ?>
             <?php do_settings_sections('free_shipping_animation_opcoes'); ?>
             <?php submit_button(); ?>
         </form>
+    </div>
+    <div style="margin: 3% 1%">
+        <img src="<?=FSA_URL . 'assets/imgs/logo-flow-oficial-white-80px.png'?>" style="width: 200px">
+        </br>
+        <span>Desenvolvido por <a href='https://goflow.digital/'>Flow Digital</a></span>.
     </div>
     <?php
     

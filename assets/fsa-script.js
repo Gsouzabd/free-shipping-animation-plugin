@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function() {
 
     // Ao carregar página
@@ -46,8 +43,15 @@ function atualizaBarraCalculo(){
     // Insere o valor float restante no span
     var valorRestante = valorRegra - totalCarrinho
     if(valorRestante <= 0){
-        $('.valor-restante-barra').text(`R$$0,00`);
-
+        $('.texto-barra-calculo').text('Você alcançou frete grátis! 👏🏼 ');
+        $('.texto-barra-calculo').css({
+            'font-size': '18px',
+            'font-weight': '700',
+            'color': 'rgb(54 157 59)'        
+        });
+        $('.barra-loading'.css({
+            'background-color': '#4caf50;'
+        }))
     }else{
         $('.valor-restante-barra').text(`R$${valorRestante}`);
     }
@@ -83,10 +87,11 @@ function regraFaixaDeCep(inputValue) {
         if ((numericValue >= 66000000 && numericValue <= 69999999) || (numericValue >= 76800000 && numericValue <= 77999999)) {
             return freteNorte;
         }
-
         if (numericValue >= 40000000 && numericValue <= 65999999){
             return freteNordeste;
         }
+    }else{
+
     }
 }
 

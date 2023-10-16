@@ -1,5 +1,5 @@
 <?php
-namespace Inc\Base;
+namespace Inc_FSA\Base;
 
 
 class Activate{
